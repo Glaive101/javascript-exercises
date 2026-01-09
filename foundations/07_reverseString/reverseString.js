@@ -4,7 +4,7 @@ const reverseString = function(word) {
     loopLength = word.length;
 
 
-    for(let i = loopLength; i > -1 ; i--){
+    for(let i = loopLength - 1; i >= 0 ; i--){
         character = word.charAt(i);
         reversedWord += character;
     }
